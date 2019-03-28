@@ -7,6 +7,7 @@
   "redux": "latest",
   "react-redux": "latest",
   "redux-persist": "latest",
-  "redux-thunk": "latest",
+  "redux-saga": "latest",
+  "reselect": "lastest",
   "react-native-code-push": "latest"
 }
