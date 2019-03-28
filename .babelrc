@@ -1,0 +1,31 @@
+{
+  "presets": ["module:metro-react-native-babel-preset"],
+  "env": {
+    "production": {
+      "plugins": ["transform-remove-console"]
+    }
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./Sources"],
+        "extensions": [".ios.js", ".android.js", ".js", ".json"],
+        "alias": {
+          "App": ["./Sources/App"],
+          "Components": ["./Sources/Components"],
+          "Localization": ["./Sources/Localization"],
+          "Models": ["./Sources/Models"],
+          "Screens": ["./Sources/Screens"],
+          "Services": ["./Sources/Services"],
+          "Types": ["./Sources/Types"],
+          "Utils": ["./Sources/Utils"],
+          "ReduxManager": ["./Sources/ReduxManager"],
+          "Assets": ["./Sources/Assets"],
+          "Navigation": ["./Sources/Navigation"],
+          "Styles": ["./Sourecs/Styles"]
+        }
+      }
+    ]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react-native",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "App": ["Sources/App"],
+      "Assets": ["Sources/Assets"],
+      "Components": ["Sources/Components"],
+      "Localization": ["Sources/Localization"],
+      "Models": ["Sources/Models"],
+      "Navigation": ["Sources/Navigation"],
+      "ReduxManager": ["Sources/ReduxManager"],
+      "Screens": ["Sources/Screens"],
+      "Services": ["Sources/Services"],
+      "Types": ["Sources/Types"],
+      "Utils": ["Sources/Utils"],
+      "Styles": ["Sourecs/Styles"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

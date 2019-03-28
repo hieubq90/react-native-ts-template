@@ -1,0 +1,12 @@
+{
+  "moment": "latest",
+  "axios": "latest",
+  "react-navigation": "latest",
+  "react-native-splash-screen": "latest",
+  "react-native-gesture-handler": "latest",
+  "redux": "latest",
+  "react-redux": "latest",
+  "redux-persist": "latest",
+  "redux-thunk": "latest",
+  "react-native-code-push": "latest"
+}

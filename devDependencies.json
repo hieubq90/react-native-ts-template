@@ -1,0 +1,16 @@
+{
+  "babel-plugin-transform-remove-console": "latest",
+  "babel-plugin-module-resolver": "latest",
+  "@types/jest": "latest",
+  "@types/react-native": "latest",
+  "@types/react-test-renderer": "latest",
+  "@types/react": "latest",
+  "@types/react-navigation": "latest",
+  "@types/redux": "latest",
+  "@types/react-redux": "latest",
+  "@types/redux-persist": "latest",
+  "@types/redux-thunk": "latest",
+  "@types/redux-logger": "latest",
+  "typescript": "latest",
+  "redux-logger": "latest"
+}
