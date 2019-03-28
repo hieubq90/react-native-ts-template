@@ -17,11 +17,11 @@ const updatePackageJson = fileName => {
     packageJson.scripts.reset_version =
       "react-native-version --reset-build --set-build 1";
     packageJson.scripts.codepush_release =
-      "appcenter codepush release-react -a thaitanloi365/MyApp";
-    packageJson.scripts.codepush_add_staging = `appcenter codepush deployment add -a thaitanloi365/${name}-iOS Staging`;
-    packageJson.scripts.codepush_create_android = `appcenter apps create -d ${name}-Android -o Android -p React-Native`;
+      "appcenter codepush release-react -a hieubq90/MyApp";
     packageJson.scripts.codepush_create_ios = `appcenter apps create -d ${name}-iOS -o iOS -p React-Native`;
-    packageJson.scripts.codepush_list_deployment = `appcenter codepush deployment list -a thaitanloi365/${name} -k`;
+    packageJson.scripts.codepush_create_android = `appcenter apps create -d ${name}-Android -o Android -p React-Native`;
+    packageJson.scripts.codepush_list_deployment_ios_key = `appcenter codepush deployment list -a hieubq90/${name}-iOS -k`;
+    packageJson.scripts.codepush_list_deployment_android_key = `appcenter codepush deployment list -a hieubq90/${name}-Android -k`;
 
     packageJson = Object.assign(packageJson, { rnpm });
     writeFile(fileName, JSON.stringify(packageJson, null, 2));

@@ -1,4 +1,5 @@
 {
+  "@react-native-community/async-storage": "latest",
   "moment": "latest",
   "axios": "latest",
   "react-navigation": "latest",
@@ -8,6 +9,6 @@
   "react-redux": "latest",
   "redux-persist": "latest",
   "redux-saga": "latest",
-  "reselect": "lastest",
+  "reselect": "latest",
   "react-native-code-push": "latest"
 }
